@@ -12,5 +12,9 @@ UBTTask_DEATH::UBTTask_DEATH()
 
 EBTNodeResult::Type UBTTask_DEATH::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
+
+
+	int a = 0;
+
 	return EBTNodeResult::Type::InProgress;
 }

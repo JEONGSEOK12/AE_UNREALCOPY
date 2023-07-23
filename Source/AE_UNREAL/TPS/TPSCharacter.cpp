@@ -5,6 +5,7 @@
 #include "Global/GlobalGameInstance.h"
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include <AI/Monster.h>
 
 // Sets default values
 ATPSCharacter::ATPSCharacter()
@@ -85,6 +86,9 @@ void ATPSCharacter::BeginPlay()
 		UStaticMeshComponent* StaticMesh = Cast<UStaticMeshComponent>(FindComponents[0]);
 	}
 
+	WeaponMesh->SetGenerateOverlapEvents(true);
+	WeaponMesh->OnComponentBeginOverlap.AddDynamic(this, &ATPSCharacter::BeginOverLap);
+
 	int a = 0;
 }
 
@@ -102,6 +106,7 @@ void ATPSCharacter::Tick(float DeltaTime)
 		WeaponMesh->SetGenerateOverlapEvents(true);
 	}
 
+	
 	// GetMovementComponent()->Velocity = FVector::LeftVector * 100.0f;
 
 	// 여기서하는게 좋습니다.
@@ -183,6 +188,30 @@ void ATPSCharacter::MoveRight(float Val)
 			AniState = TPSAniState::Idle;
 		}
 	}
+}
+
+
+UFUNCTION()
+void ATPSCharacter::BeginOverLap(
+	UPrimitiveComponent* OverlappedComponent,
+	AActor* OtherActor,
+	UPrimitiveComponent* OtherComp,
+	int32 OtherBodyIndex,
+	bool bFromSweep,
+	const FHitResult& SweepResult
+)
+{
+
+	int a = 0;
+
+
+	if (OtherActor->ActorHasTag(TEXT("Monster")))
+	{
+		AMonster* Monster = Cast<AMonster>(OtherActor);
+		Monster->SetAniState(AIState::DEATH);
+	}
+
+
 }
 
 void ATPSCharacter::MoveForward(float Val)
