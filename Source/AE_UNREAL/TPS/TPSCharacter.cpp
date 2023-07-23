@@ -191,7 +191,7 @@ void ATPSCharacter::MoveRight(float Val)
 }
 
 
-UFUNCTION()
+
 void ATPSCharacter::BeginOverLap(
 	UPrimitiveComponent* OverlappedComponent,
 	AActor* OtherActor,
