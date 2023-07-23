@@ -9,9 +9,9 @@ UBTTask_AIBase::UBTTask_AIBase()
 	bNotifyTaskFinished = true;
 }
 
-void UBTTask_AIBase::OnGameplayTaskActivated(class UGameplayTask&)
+void UBTTask_AIBase::OnGameplayTaskActivated(class UGameplayTask& Task)
 {
-
+	
 }
 
 float UBTTask_AIBase::GetStateTime(UBehaviorTreeComponent& OwnerComp)

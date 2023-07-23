@@ -83,6 +83,14 @@ void UBTTask_MOVE::TickTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory
 			return;
 		}
 
+		if (2000.f <= Dir.Size())
+		{
+			SetStateChange(OwnerComp, AIState::RETURN);
+			return;
+		}
 	}
+
+	
+
 
 }

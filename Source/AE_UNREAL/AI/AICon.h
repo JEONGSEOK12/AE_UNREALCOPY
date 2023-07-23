@@ -17,6 +17,8 @@ class AE_UNREAL_API AAICon : public AAIController
 public:
 	AAICon();
 
+	FVector BaseLocation;
+
 protected:
 	void OnPossess(APawn* _InPawn) override;
 
@@ -26,4 +28,6 @@ private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UBlackboardComponent* BlackboardComponent;
+
+
 };

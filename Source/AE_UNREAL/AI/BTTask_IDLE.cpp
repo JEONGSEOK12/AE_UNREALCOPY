@@ -66,7 +66,28 @@ void UBTTask_IDLE::TickTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory
 			SetStateChange(OwnerComp, AIState::MOVE);
 			return;
 		}
+
+		//if (nullptr == ResultActor)
+		//{
+		//	SetStateChange(OwnerComp, AIState::RETURN);
+		//	return;
+		//}
 	}
+
+	FVector PawnPos = GetGlobalCharacter(OwnerComp)->GetActorLocation();
+
+	AAICon* Con = Cast<AAICon>(OwnerComp.GetAIOwner());
+	FVector TargetPos = Con->BaseLocation;
+
+	FVector Dir = TargetPos - PawnPos;
+
+
+	if (Dir.Size() >= 100.f)
+	{
+		SetStateChange(OwnerComp, AIState::RETURN);
+		return;
+	}
+
 
 	//핵심은 플레이어를 찾아내는것.
 	// GetGlobalCharacter(OwnerComp)->GetLevel()->;

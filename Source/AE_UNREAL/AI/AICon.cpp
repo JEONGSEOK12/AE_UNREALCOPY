@@ -37,6 +37,8 @@ void AAICon::OnPossess(APawn* _InPawn)
 		BlackboardComponent->SetValueAsObject(TEXT("SelfActor"), _InPawn);
 
 		BehaviorTreeComponent->StartTree(*BehaviorTree);
+
+		BaseLocation = _InPawn->GetActorLocation();
 	}
 
 	// 행동트리 에셋을 집어 넣어주고
