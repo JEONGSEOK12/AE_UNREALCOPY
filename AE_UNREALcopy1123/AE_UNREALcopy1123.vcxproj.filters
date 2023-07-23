@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AE_UNREAL.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AE_UNREAL.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AE_UNREALEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\AE_UNREAL">
+      <UniqueIdentifier>{F523F8D4-2455-36AC-8B34-EEDB95BCD47B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AE_UNREAL\AE_UNREAL.Build.cs">
+      <Filter>Source\AE_UNREAL</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AE_UNREAL\AE_UNREAL.cpp">
+      <Filter>Source\AE_UNREAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\AE_UNREAL.h">
+      <Filter>Source\AE_UNREAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\AE_UNREALGameModeBase.cpp">
+      <Filter>Source\AE_UNREAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\AE_UNREALGameModeBase.h">
+      <Filter>Source\AE_UNREAL</Filter>
+    </ClInclude>
+    <Filter Include="Source\AE_UNREAL\AI">
+      <UniqueIdentifier>{580ED7CF-88FA-3DCF-88A0-99EAB53CFF10}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AE_UNREAL\AI\AICon.cpp">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\AI\AICon.h">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\AI\BTTask_AIBase.cpp">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\AI\BTTask_AIBase.h">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\AI\BTTask_ATTACK.cpp">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\AI\BTTask_ATTACK.h">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\AI\BTTask_DEATH.cpp">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\AI\BTTask_DEATH.h">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\AI\BTTask_IDLE.cpp">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\AI\BTTask_IDLE.h">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\AI\BTTask_MOVE.cpp">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\AI\BTTask_MOVE.h">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\AI\BTTask_PATROL.cpp">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\AI\BTTask_PATROL.h">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\AI\BTTask_RETURN.cpp">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\AI\BTTask_RETURN.h">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\AI\Monster.cpp">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\AI\Monster.h">
+      <Filter>Source\AE_UNREAL\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\AE_UNREAL\Collision">
+      <UniqueIdentifier>{CA7C0690-8239-33DC-B61F-98502ABF08BF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Collision\CollisionCharacter.cpp">
+      <Filter>Source\AE_UNREAL\Collision</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Collision\CollisionCharacter.h">
+      <Filter>Source\AE_UNREAL\Collision</Filter>
+    </ClInclude>
+    <Filter Include="Source\AE_UNREAL\GameMode">
+      <UniqueIdentifier>{EA3096F6-458C-3897-9108-8EC1DFAE3620}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AE_UNREAL\GameMode\EDULevelMode.cpp">
+      <Filter>Source\AE_UNREAL\GameMode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\GameMode\EDULevelMode.h">
+      <Filter>Source\AE_UNREAL\GameMode</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\GameMode\TitleGameMode.cpp">
+      <Filter>Source\AE_UNREAL\GameMode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\GameMode\TitleGameMode.h">
+      <Filter>Source\AE_UNREAL\GameMode</Filter>
+    </ClInclude>
+    <Filter Include="Source\AE_UNREAL\Global">
+      <UniqueIdentifier>{A20727D0-C129-3D52-88F9-05E273DE0CBD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Global\AICharacter.cpp">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\AICharacter.h">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Global\AIPlayerCharacter.cpp">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\AIPlayerCharacter.h">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Global\ARGlobal.cpp">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\ARGlobal.h">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Global\GlobalAnimInstance.cpp">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\GlobalAnimInstance.h">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Global\GlobalCharacter.cpp">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\GlobalCharacter.h">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Global\GlobalDebugUserWidget.cpp">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\GlobalDebugUserWidget.h">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\GlobalEnums.h">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Global\GlobalGameInstance.cpp">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\GlobalGameInstance.h">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Global\GlobalTestObject.cpp">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\GlobalTestObject.h">
+      <Filter>Source\AE_UNREAL\Global</Filter>
+    </ClInclude>
+    <Filter Include="Source\AE_UNREAL\Global\Data">
+      <UniqueIdentifier>{E7F61222-1B09-3A1F-A87E-2EF4A8DD6B36}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\Data\ActorSubClassData.h">
+      <Filter>Source\AE_UNREAL\Global\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\Data\GameMainData.h">
+      <Filter>Source\AE_UNREAL\Global\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\Data\GameMeshData.h">
+      <Filter>Source\AE_UNREAL\Global\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\Data\MonsterData.h">
+      <Filter>Source\AE_UNREAL\Global\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\Data\PlayerWeaponData.h">
+      <Filter>Source\AE_UNREAL\Global\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Global\Data\SubClassData.h">
+      <Filter>Source\AE_UNREAL\Global\Data</Filter>
+    </ClInclude>
+    <Filter Include="Source\AE_UNREAL\Math">
+      <UniqueIdentifier>{3F716117-1934-36D1-B8A1-B585E13260AD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Math\MathGameMode.cpp">
+      <Filter>Source\AE_UNREAL\Math</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Math\MathGameMode.h">
+      <Filter>Source\AE_UNREAL\Math</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Math\MathMainActor.cpp">
+      <Filter>Source\AE_UNREAL\Math</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Math\MathMainActor.h">
+      <Filter>Source\AE_UNREAL\Math</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Math\MathWidget.cpp">
+      <Filter>Source\AE_UNREAL\Math</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Math\MathWidget.h">
+      <Filter>Source\AE_UNREAL\Math</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Math\TestClass.cpp">
+      <Filter>Source\AE_UNREAL\Math</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Math\TestClass.h">
+      <Filter>Source\AE_UNREAL\Math</Filter>
+    </ClInclude>
+    <Filter Include="Source\AE_UNREAL\Snake">
+      <UniqueIdentifier>{A6A12524-A04A-3031-96B4-09238250B0A9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Snake\SnakeGameMode.cpp">
+      <Filter>Source\AE_UNREAL\Snake</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Snake\SnakeGameMode.h">
+      <Filter>Source\AE_UNREAL\Snake</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Snake\SnakeHead.cpp">
+      <Filter>Source\AE_UNREAL\Snake</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Snake\SnakeHead.h">
+      <Filter>Source\AE_UNREAL\Snake</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Snake\SnakePart.cpp">
+      <Filter>Source\AE_UNREAL\Snake</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Snake\SnakePart.h">
+      <Filter>Source\AE_UNREAL\Snake</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\Snake\SnakePawn.cpp">
+      <Filter>Source\AE_UNREAL\Snake</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\Snake\SnakePawn.h">
+      <Filter>Source\AE_UNREAL\Snake</Filter>
+    </ClInclude>
+    <Filter Include="Source\AE_UNREAL\TPS">
+      <UniqueIdentifier>{129E6547-E950-39CA-B8E5-6C7F3C590BAD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AE_UNREAL\TPS\TPSAnimInstance.cpp">
+      <Filter>Source\AE_UNREAL\TPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\TPS\TPSAnimInstance.h">
+      <Filter>Source\AE_UNREAL\TPS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AE_UNREAL\TPS\TPSCharacter.cpp">
+      <Filter>Source\AE_UNREAL\TPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AE_UNREAL\TPS\TPSCharacter.h">
+      <Filter>Source\AE_UNREAL\TPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AE_UNREAL\TPS\TPSEnums.h">
+      <Filter>Source\AE_UNREAL\TPS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
